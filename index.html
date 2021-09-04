@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a8faa41592.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Food Menu</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="main-title">Our Menu</h1>
+        <div class="header__content">
+            <div class="container">
+                <input type="search" name="" id="search-item" placeholder="Search">
+            </div>
+            <div class="tabs container">
+                <button data-for="all" class="tab-btn tab-btn-active">All</button>
+                <button data-for="veg" class="tab-btn">Veg</button>
+                <button data-for="fruit" class="tab-btn">Fruits</button>
+                <button data-for="mix" class="tab-btn">Mix</button>
+            </div>
+            <div class="filter container">
+                Sort by
+                <select name="filters" id="filters">
+                    <option value="name">Name</option>
+                    <option value="pricedesc">Price (Desc)</option>
+                    <option value="priceasc">Price (Asc)</option>
+                    <option value="rating">Ratings</option>
+                </select>
+                <button class="sorty-by"><i class="fas fa-sort"></i></button>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (1).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">French Fries with Paneer</h2>
+                <span class="category-name">Category - Veg</span>
+                <input type="hidden" name="category" class="category-input" value="veg all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">250</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">4</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (10).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">Pizza with Sauce</h2>
+                <span class="category-name">Category - Fruit</span>
+                <input type="hidden" name="category" class="category-input" value="fruit all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">250</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">2</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (11).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">Hamburger Cheese</h2>
+                <span class="category-name">Category - Veg</span>
+                <input type="hidden" name="category" class="category-input" value="veg all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">250</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">1</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (12).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">Mix Veg</h2>
+                <span class="category-name">Category - Mix</span>
+                <input type="hidden" name="category" class="category-input" value="mix all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">500</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">5</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (2).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">Aallo Tiki</h2>
+                <span class="category-name">Category - Fruit</span>
+                <input type="hidden" name="category" class="category-input" value="fruit all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">200</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">4</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (3).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">Tikki with dosa</h2>
+                <span class="category-name">Category - Fruit</span>
+                <input type="hidden" name="category" class="category-input" value="fruit all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">600</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">3</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (4).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">Dosa with samosa</h2>
+                <span class="category-name">Category - Veg</span>
+                <input type="hidden" name="category" class="category-input" value="veg all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">40</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">5</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (5).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">Idli & Dosa</h2>
+                <span class="category-name">Category - Mix</span>
+                <input type="hidden" name="category" class="category-input" value="mix all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">800</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">4</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (6).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">One Samosa</h2>
+                <span class="category-name">Category - Veg</span>
+                <input type="hidden" name="category" class="category-input" value="veg all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">20</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">5</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (6).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">Daal Chawal</h2>
+                <span class="category-name">Category - Mix</span>
+                <input type="hidden" name="category" class="category-input" value="mix all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">80</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">3</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="food-container">
+            <div class="food-image">
+                <img src="imgs/img (7).jpg" alt="" class="img-food">
+            </div>
+            <div class="food-details">
+                <h2 class="food-name">Pine Apple Juice</h2>
+                <span class="category-name">Category - Fruit</span>
+                <input type="hidden" name="category" id="category-input" class="category-input" value="fruit all">
+                <div class="price">
+                    <h3>Price <span class="price-rate">100</span>rs</h3>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit perspiciatis deleniti maiores harum.</p>
+                </div>
+                <div class="food-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <div class="rating display-hidden">4</div>
+                </div>
+                <div class="buy-now">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
